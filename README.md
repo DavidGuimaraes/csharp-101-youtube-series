@@ -1,1 +1,3 @@
-# csharp-101-youtube-series
+# C# 101 YouTube Series
+
+This is a Solution created no only to play around with C#, but also to follow the official [C# 101 YouTube series](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVxKLQCHpiUWun7vlJJvUiN&disable_polymer=true) along. The series is official material by Microsoft. You can find this and more official resources on [dotNET YoutTube channel](https://www.youtube.com/channel/UCvtT19MZW8dq5Wwfu6B0oxw). Every commit represents one video/class/subject studied.
