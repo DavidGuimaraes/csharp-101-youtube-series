@@ -27,16 +27,39 @@ namespace CSharp101YouTubeSeries
             // trimmedGreeting = greeting.Trim();
             // Console.WriteLine($"[{trimmedGreeting}]");
 
-            string sayHello = "Hello, World!";
-            Console.WriteLine(sayHello);
-            sayHello = sayHello.Replace("Hello", "Greetings");
-            Console.WriteLine(sayHello);
+            // string sayHello = "Hello, World!";
+            // Console.WriteLine(sayHello);
+            // sayHello = sayHello.Replace("Hello", "Greetings");
+            // Console.WriteLine(sayHello);
+            //
+            // sayHello = sayHello.Replace("Something else", "Greetings");
+            // Console.WriteLine(sayHello);
+            //
+            // Console.WriteLine(sayHello.ToUpper());
+            // Console.WriteLine(sayHello.ToLower());
+
+            // string songLyrics = "You say goodbye, and I say hello";
+            //
+            // Console.WriteLine(songLyrics.Contains("goodbye"));
+            // Console.WriteLine(songLyrics.Contains("greetings"));
+            //
+            // string newSongLyrics = "You say greetings, and I say hello";
+            //
+            // Console.WriteLine(newSongLyrics.Contains("goodbye"));
+            // Console.WriteLine(newSongLyrics.Contains("greetings"));
             
-            sayHello = sayHello.Replace("Something else", "Greetings");
-            Console.WriteLine(sayHello);
+            string songLyrics = "You say goodbye, and I say hello";
             
-            Console.WriteLine(sayHello.ToUpper());
-            Console.WriteLine(sayHello.ToLower());
+            Console.WriteLine(songLyrics.StartsWith("You"));
+            Console.WriteLine(songLyrics.EndsWith("hello"));
+            
+            Console.WriteLine(songLyrics.StartsWith("you"));
+            Console.WriteLine(songLyrics.EndsWith("hello"));
+
+            var firstSubString = "You";
+            var secondSubString = "HELLO";
+            Console.WriteLine(songLyrics.StartsWith(firstSubString.ToLower()));
+            Console.WriteLine(songLyrics.EndsWith(secondSubString.ToLower()));
         }
     }
 }
