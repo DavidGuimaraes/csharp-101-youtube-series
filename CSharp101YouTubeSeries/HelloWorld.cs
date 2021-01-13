@@ -42,22 +42,22 @@
 //     }
 // }
 
-using System;
-
-namespace CSharp101YouTubeSeries
-{
-    public class HelloWorld
-    {
-        public static void Main(string[] args)
-        {
-            // Console.WriteLine("Hello World!");
-            // Console.WriteLine("Hello Friends!");
-
-            // string aFriend = "Kendra";
-            string aFriend = "Scott";
-            // Console.WriteLine(aFriend);
-            // Console.WriteLine($"Hello, " + aFriend);
-            Console.WriteLine($"Hello, {aFriend}");
-        }
-    }
-}
+// using System;
+//
+// namespace CSharp101YouTubeSeries
+// {
+//     public class HelloWorld
+//     {
+//         public static void Main(string[] args)
+//         {
+//             // Console.WriteLine("Hello World!");
+//             // Console.WriteLine("Hello Friends!");
+//
+//             // string aFriend = "Kendra";
+//             string aFriend = "Scott";
+//             // Console.WriteLine(aFriend);
+//             // Console.WriteLine($"Hello, " + aFriend);
+//             Console.WriteLine($"Hello, {aFriend}");
+//         }
+//     }
+// }
